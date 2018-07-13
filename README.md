@@ -118,10 +118,14 @@ other elements.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/flatiron_school/rgyPC/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+#### Using `relative` Positioning
+
 he `relative` value for the `position` property allows elements to appear within the normal
 flow a page, however it gives us the ability to offset an element from the top, right, bottom,
 or left that direction the number of units that is set without changing the positioning of the
 elements around it.
+
+#### Using `absolute` Positioning
 
 If we set `position` to `absolute` it also gives us the same ability, however the values that
 are applied for these properties will move the element within the relatively positioned parent, 
@@ -131,17 +135,22 @@ original space and position of the absolutely positioned element will not be pre
 example of absolutely positioned elements in common UI are "close" buttons in a window. They are
 typically docked to the top-right of a container (sometimes the top-left).
 
+#### Using `fixed` Positioning
+
 An element with `position` set to `fixed` shares all the rules of an absolutely positioned element,
 except that the browser window positions the fixed element, as opposed to any parent element.
 Additionally, a fixed element does not scroll with the document. It remains fixed within the window.
 Commonly used fixed UI elements can be <a href="https://tympanus.net/Development/ModalWindowEffects/" target="_blank">modal windows</a>,
 or <a href="https://tympanus.net/Development/HeaderEffects/" target="_blank">floating menus</a>. 
 
-The value of `sticky` can also be used specifically for "sticky" elements like menus, but browser
-support is limited.
+**NOTE: The value of `sticky` can also be used specifically for "sticky" elements like menus, but browser
+support is limited.**
 
 <iframe src="https://tympanus.net/codrops-playground/SaraSoueidan/BpnKahud/embed/result,html,css/" class="codrops-playground-embed" width="100%" height="300px" frameborder="0" scrolling="no" allowfullscreen="true" style="position: relative;"></iframe>
 
+While positioning elements can allow for a lot of control in layout, be mindful that
+it is not a method you would use for entire layouts. However, there are many tasks it
+is suited for that enhances layout and functionality.
 
 ## Use `z-index` to Change the Depth of Elements
 
@@ -149,7 +158,6 @@ Positioning and `z-index` often go hand-in-hand. Have you ever noticed UI elemen
 the page, such as a drop down menu, tooltip, or a popover? When you click on a photo, a modal may pop
 up with an enlarged version of it. These are a couple of common examples where you want to control the
 placement of each layer on the page. This can be achieved using a property called `z-index`. 
-
 
 The `z-index` property controls the stacking order of elements that overlap. A higher value means the
 element will be closer to the top of the stacking order. `z-index` only effects
@@ -166,11 +174,28 @@ involved, the stacking order is prioritized by the following:
 Observe the example below to see how elements are effected when positioning and `z-index` are applied:
 <iframe width="100%" height="300" src="//jsfiddle.net/nWGts/132/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-Try changing the `z-index` property of individual elements to stack them in a different order
+Try changing the `z-index` property of individual elements to stack them in a different order. By
+default, the top-most element would be the blue square, with the id of `c`, but the red square with
+the id of `a` appears closest to you on the screen, since it has a higher `z-index` value.
 
 ## Use `margin: auto` to Center Block Elements
 
+In constructing a layout and various layout elements, centering in the "unknown"
+will be needed often to align elements in the center of a page without giving fixed
+values that may not work for various screen sizes. With `margin: 0 auto;` it is possible!
 
+<iframe width="100%" height="300" src="//jsfiddle.net/flatiron_school/VGue9embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+
+In the example above, we've wrapped all of content inside of one element, which is
+the div with the class of wrapper. By setting the width of this wrapper element, it
+will prevent it from stretching to the full width of a screen. Its `margin` is set to `0 auto`. The first value
+is `0` meaning zero `margin` on the top and bottom, and the second value `auto` means
+it will automatically calculate the left and right margin. If you drag the results
+window larger or smaller, it will adjust the margin accordingly.
+
+The only issue with this is when the element is wider than the browser window.
+We will discuss later on how to adjust for this limitation.
 
 ## Conclusion
 

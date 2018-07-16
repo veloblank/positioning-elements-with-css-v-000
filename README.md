@@ -199,11 +199,9 @@ We will discuss later on how to adjust for this limitation.
 
 ## Conclusion
 
-There aren't many alternatives for using floats for certain parts of your page
-layout. As a result, you'll become familiar with some of the drawbacks of float
-and how to compensate for these limitations. Using the `clear` property such as
-in the `clearfix`, when needed, can be a life-saver!
-
-Changing the `z-index` property of elements allows you to layer different elements
-on top of each other. This is commonly used when building out navigations, modals, 
-popups/popovers, and other interactive content elements.
+CSS enables us to choose from many options with positioning elements. Over the past
+couple of years alone, CSS has dramatically changed as well as the way we develop
+website front end. We need to understand the fundamentals in order to best make
+a decision as to how to leverage these properties. With `float`, `clear`, `position`,
+`display`, `z-index`, and `margin`, we're able to take control of CSS layouts and content
+design--whether it's for alignment, spacing, and other design choices.

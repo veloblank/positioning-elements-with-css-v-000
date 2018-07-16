@@ -203,5 +203,5 @@ CSS enables us to choose from many options with positioning elements. Over the p
 couple of years alone, CSS has dramatically changed as well as the way we develop
 website front end. We need to understand the fundamentals in order to best make
 a decision as to how to leverage these properties. With `float`, `clear`, `position`,
-`display`, `z-index`, and `margin`, we're able to take control of CSS layouts and content
+`z-index`, and `margin`, we're able to take control of CSS layouts and content
 design--whether it's for alignment, spacing, and other design choices.

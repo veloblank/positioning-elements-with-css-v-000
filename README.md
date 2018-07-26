@@ -30,7 +30,7 @@ not the intended affect, you can use the `clear` property. You can set it to cle
 the element floated `left`, `right`, or elements floating with either using `both`. An example of
 using `float` for layout structure can be seen in the snippet below:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/flatiron_school/VGue9embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/flatiron_school/VGue9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 In this scenerio, we want the footer to cleanly display below all the column. In order to get the
 footer to clear past the height of any floating content we can use the `clear` property. Using
@@ -184,7 +184,7 @@ In constructing a layout and various layout elements, centering in the "unknown"
 will be needed often to align elements in the center of a page without giving fixed
 values that may not work for various screen sizes. With `margin: 0 auto;` it is possible!
 
-<iframe width="100%" height="300" src="//jsfiddle.net/flatiron_school/VGue9embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/flatiron_school/VGue9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
 In the example above, we've wrapped all of content inside of one element, which is

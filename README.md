@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-One powerful feature of CSS the ability to position content in a variety of
+One powerful feature of CSS is the ability to position content in a variety of
 ways without having to write much HTML markup. There are a few different types
 of positioning within CSS, some of which have multiple uses and applications.
 When it comes to page layouts, CSS has become king, so what can be taken advantage

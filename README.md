@@ -120,8 +120,8 @@ other elements.
 
 #### Using `relative` Positioning
 
-he `relative` value for the `position` property allows elements to appear within the normal
-flow a page, however it gives us the ability to offset an element from the top, right, bottom,
+The `relative` value for the `position` property allows elements to appear within the normal
+flow of a page, however it gives us the ability to offset an element from the top, right, bottom,
 or left that direction the number of units that is set without changing the positioning of the
 elements around it.
 

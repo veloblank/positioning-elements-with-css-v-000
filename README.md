@@ -23,7 +23,7 @@ removes it from the normal flow of a page, and position it to the left or right 
 parent element. All other elements on the page will then "wrap" around the floated element. 
 
 The two most popular values for `float` are left and right, which allow elements to be
-floated to the left or right inside of their parent element. Anytime you float an element
+floated to the left or right inside of their parent element. Anytime you float an element,
 elements that come after are going to try fill into available whitespace next to the floating
 elements. If there's room for a container to fit next to the some floated content, and that
 not the intended affect, you can use the `clear` property. You can set it to clear, or reset from,

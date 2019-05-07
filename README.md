@@ -130,7 +130,7 @@ elements around it.
 If we set `position` to `absolute` it also gives us the same ability, however the values that
 are applied for these properties will move the element within the relatively positioned parent, 
 or within the entire browser window, instead of the element only moving relative to where it
-was in the dom. The element will not appear within the normal flow of a document, and the
+was in the DOM. The element will not appear within the normal flow of a document, and the
 original space and position of the absolutely positioned element will not be preserved. A common
 example of absolutely positioned elements in common UI are "close" buttons in a window. They are
 typically docked to the top-right of a container (sometimes the top-left).
